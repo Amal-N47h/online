@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificate</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
+          crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Your Certificate</h1>
+
+    <div class="info" id="statusMsg">Loading your certificate...</div>
+
+    <button id="downloadBtn" disabled>Download as PDF</button>
+
+    <div id="certificate" class="certificate">
+      <div class="certificate-inner">
+        <h2>Certificate of Achievement</h2>
+        <p>This certifies that</p>
+        <p class="name" id="certName">[Name]</p>
+        <p>has successfully completed the program.</p>
+        <div class="footer">
+          <div>_________________<br>Signature</div>
+          <div>_________________<br>Date</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
