@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const FILE_PATH  = "names.json";
 
   // Your GitHub token (visible in browser - you're okay with that)
-  const GH_TOKEN   = "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";
+  const GH_TOKEN   = "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";
   // ===============================
 
   const params = new URLSearchParams(window.location.search);
